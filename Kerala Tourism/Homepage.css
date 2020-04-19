@@ -53,7 +53,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    padding-top: 30px;
+    padding-top: 20px;
     background-position: 0 -380px;
 }
 .signupform{
@@ -83,4 +83,26 @@
 }
 .sightdeets{
     font-size: 14.5px;
+}
+.error{
+    position: relative;
+    animation: shake 0.5s;
+}
+
+@keyframes shake{
+    0% , 100% {
+        left: 0px;
+    }
+    20%{
+        left: -4px;
+    }
+    40%{
+        left: 4px;
+    }
+    60%{
+        left: 4px;
+    }
+    80%{
+        left:-4px;
+    }
 }

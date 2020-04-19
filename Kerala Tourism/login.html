@@ -36,24 +36,25 @@
     </div>
   </nav>
   <section id="showcase_login">
-    <form class="container col-md-4 signupform">
+    <form class="container col-md-4 signupform" action="./districts.html" onsubmit="return validate()">
       <div class="form-group ">
         <p class="display-4 text-center">LOG IN</p>
         <label for="exampleInputEmail1">ENTER YOUR REGISTERED EMAIL ADDRESS</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
           placeholder="Enter email">
       </div>
       <div class="form-group ">
         <label for="exampleInputPassword1">ENTER PASSWORD</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <input type="password" class="form-control" id="pass" placeholder="Password">
       </div>
-      <a class="btn btn-success signupbutton container col-sm-12" href="./districts.html">LOG IN</a>
+      <button id="submit" class="btn btn-success signupbutton container col-sm-12">LOG IN</button>
     </form>
   </section>
   <footer class="footerfixed">
     <p class="text-center">Kerala Tourism Department copyright &copy; A Govt. Of kerala Undertaking.</p>
 
   </footer>
+  <script src="./js/login.js"></script>
 
 
 </body>
