@@ -85,6 +85,7 @@
     font-size: 14.5px;
 }
 .error{
+    border: 2px red solid;
     position: relative;
     animation: shake 0.5s;
 }
